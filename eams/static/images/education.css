@@ -1,0 +1,77 @@
+/* CSS Document */
+*{ margin:0px; padding:0px; list-style-type:none;}
+a:hover{ text-decoration:none}
+html,body{ height:100%;}
+body{ font-size:14px;  font-family:"å¾®è½¯é›…é»‘"; position:relative; min-width:1260px;background: url(education-bg-1.png) no-repeat top center;background-size:cover;}
+
+.grid{ margin:0px auto; position:relative;}
+
+
+.blank{height: 10px;}
+
+.login-bg{float:left;width:100%;}
+.logo{width: 100%;padding: 30px 10%; height:100px;background:url(head-mask.png) repeat-x bottom;}
+.logo-name {text-align: left;border-left:solid 1px #ffffff;padding-left: 30px;margin-left:30px;color: #ffffff;line-height: 15px; display:inline-block; vertical-align:middle;  }
+.chinese{font-size:20px;}.english{font-size:12px;}
+
+.login-box{width: 100%; padding-top:6%;}
+.login-box-bg{ background: rgba(0,0,0,0.5);
+border-radius:10px;width:450px;color:#ffffff;margin: 0 auto; padding:20px; }
+
+.login-table{ width:100%;}
+.login{text-align: center;font-size: 20px}
+
+
+.login-table td{ padding:8px 0px;}
+.login-table input,.login-table button{border-radius: 5px;border:0px;color: black;height: 40px; background-color:#ffffff;border-radius: 5px;width:100%;}
+.login-table a{color:#ffffff;text-decoration: none;}
+.user{background: url(user-name.png)no-repeat 10px center ;padding-left:40px;}
+.pw{background: url(password.png)no-repeat 15px center ;padding-left:40px;}
+.user[placeholder],.pw[placeholder],.verity[placeholder]{padding-left: 40px;}
+.user-name{padding-left: 4px;}
+.user,.pw{width: 100%;}
+.submit{background: #0c86f3 !important;line-height: 40px;width: 100%;color: #ffffff !important;}
+.version label{width: 20px;height: 20px;}
+.version span{margin-left: 10px;}
+.version .english1{margin-left: 60px;}
+.version .english1,.chinese1{background:url(checkbox-1.png) no-repeat ;vertical-align: middle;margin-top: 8px;}
+
+.version .active{background:url(checkbox-2.png) no-repeat;vertical-align: middle;margin-top: 8px;}
+
+.other-way .platform-login{ text-align:right}
+.footer{width: 100%; color:#ffffff;text-align: center; position:fixed; bottom:0px; background:url(footer-mask.png) repeat-x top; height:100px; line-height:100px;}
+
+
+.login-table input.verity{background: url(verity-icon.png)no-repeat 15px center #fff;padding-left:40px; width:90%;}
+
+.verity-image{ text-align:right}
+.verity-image img{background-color:#ffffff;border-radius: 10px;height: 100%;}
+
+.browser{ color:rgba(255,255,255,0.7)}
+
+@media screen and (max-width: 3000px) { 
+	.logo {
+		padding: 20px 5%;
+	}
+
+.logo img{ height:80%;}
+
+.login-box-bg{width:330px;}
+.login-table td{ padding:5px 0px;}
+.login-table input, .login-table button{ box-sizing:border-box; height:35px; line-height:35px;}
+}
+
+@media screen and (max-width: 1366px) { 
+	.login-box{padding-top: 3%;}
+	.login-table {
+		color: #ffffff;
+	}
+	
+	.footer {
+		background: url(footer-mask.png) repeat-x top;
+		height: 80px;
+		line-height: 80px;
+	}
+}
+
+
