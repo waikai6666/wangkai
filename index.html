@@ -2,13 +2,30 @@
 <title>k</title>
 </head>
 <body>
-
-<h1>网页防篡改系统</h1>
-<h2>组员</h2>
-<p>李鑫杰<br />张仕举<br />王楷</p>
-<h2>实验内容</h2>
-<p>待定</p>
-<h2>网页介绍</h2>
-<p>This is a simple page!</p>
+	<form action="./wait.html"> 
+        用户名:<input type="text" id="uname"/><br> 
+        密码:<input type="password" id="pwd"/><br> 
+        <input type="submit" value="登录" onclick="return checkuser()"/> 
+    </form> 
+	<h1>网页防篡改系统</h1>
+	<h2>组员</h2>
+	<p>李鑫杰<br />张仕举<br />王楷</p>
+	<h2>实验内容</h2>
+	<p>待定</p>
+	<h2>网页介绍</h2>
+	<p>This is a simple page!</p>
 
 </body>
+<script type="text/javascript"> 
+    function getValue(id) { 
+        return document.getElementById(id).value; 
+    } 
+    function checkuser() { 
+        if(getValue('uname') == "username" && getValue('pwd') == "password") { 
+            return true; 
+        }else { 
+            alert("登录名或密码错误！")
+            return false; 
+        } 
+    } 
+</script> 
